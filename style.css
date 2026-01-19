@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #091E05;
+    color: white;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.navbar li a:hover {
+    padding: 10px;
+    background-color: #FFDA22;
+    color: black;
+
+}
+
+.hero {
+    width: 100%;
+    height: 50vh;
+    background-color: #D87CAC;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.hero button {
+    width: 10%;
+    font-size: 15px;
+    background-color: #FFDA22;
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+
+}
+
+.hero button:hover {
+    background-color: #D87CAC;
+    color: white;
+    width: 10%;
+    font-size: 15px;
+    border-radius: 15px;
+    height: 30px;
+
+}.hakkimda{
+     width: 100%;
+    height: 50vh;
+    background-color: #FFDA22;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    display: flex;
+}.yetenekler{
+   width: 100%;
+    height: 100vh;
+    background-color: #091E05;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    display: flex;
+}.yetenekler h2{
+    color:white;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    
+}.row h3{
+    color:white;
+}.yetenekler .row .card   p{
+    color:white;
+}.row .card{
+    text-align: center;
+
+}.projeler{
+      width: 100%;
+    height: 100vh;
+    background-color: #D87CAC;
+    color: black;
+     justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+.iletisim{
+      width: 100%;
+    height: 100vh;
+    background-color: #FFDA22;
+    color: black;
+     align-items: center;
+  flex-direction: column;
+    
+    display: flex;
+
+}.mb-3{
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+.mb-3 label{
+    width: 100%;
+    font-size: 20px;
+
+}.mb-3 input{
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+
+}textarea{
+     width: 100%;
+    height: 40px;
+    font-size: 20px;
+
+}.iletisim button{
+    width: 25%;
+    height: 30px;
+    font-size: 20px;
+    background-color: #D87CAC;
+    color:black;
+}footer{
+    background-color: #091E05;
+    color:white;
+    font-size: 20px;
+    height: 25vh;
+    align-items: center;
+  flex-direction: column;
+ 
+    justify-content: center;
+    display: flex;
+    
+}
